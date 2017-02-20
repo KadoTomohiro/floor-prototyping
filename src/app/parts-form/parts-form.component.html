@@ -4,7 +4,7 @@
     <legend>サイズ</legend>
     <div for="width"><input type="number" name="width" id="width" ngModel placeholder="幅" required><span>cm</span></div>
     <div for="depth"><input type="number" name="depth" id="depth" ngModel placeholder="奥行き" required><span>cm</span></div>
-    <div for="height"><input type="number" name="height" id="height" ngModel placeholder="高さ" required><span>cm</span></div>
+    <div for="height"><input type="number" name="height" id="height" ngModel placeholder="高さ"><span>cm</span></div>
   </fieldset>
   <button type="submit" [disabled]="!f.valid">保存</button>
 </form>
