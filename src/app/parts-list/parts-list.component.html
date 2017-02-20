@@ -1,0 +1,8 @@
+<div *ngFor="let parts of list; let i = index">
+  <app-parts-detail
+      [width]="parts.size.width"
+      [height]="parts.size.depth"
+      [name]="parts.name">
+  </app-parts-detail>
+  <button (click)="onClickDelete(i)" class="no-print">削除</button>
+</div>

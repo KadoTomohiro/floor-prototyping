@@ -1,0 +1,18 @@
+form {
+    border: 2px solid #000000;
+    display:inline-block;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset input {
+    width: 5em;
+    text-align: right;
+}
+
+button {
+    width: 100%;
+}
